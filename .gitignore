@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+riskradar_ingest.db
+
+# Training data and outputs
+training_data/
+models/
+outputs/
+runs/
+logs/
+*.log
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Data files
+data/
+raw_data/
+processed_data/
+*.csv
+*.json
+*.jsonl
+*.parquet
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Large files (Git LFS if needed)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Temporary files
+tmp/
+temp/
+*.tmp
